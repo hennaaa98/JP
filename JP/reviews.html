@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <!-- GLOBAL SITE TAG (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109483701-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109483701-1');
+    </script>
+
+    <!-- CHARACTER SET -->
+    <meta charset="utf-8">
+
+    <!-- MAKES THIS PAGE NOT SEARCHABLE -->
+    <meta name="robots" content="nofollow" />
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+
+    <!-- RESPONSIVE META TAG -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- TITLE -->
+    <title>JUVIVA PHYSIO</title>
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- ROBOTO FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- SCRIPT FOR BURGER MENU -->
+    <script>
+      $( document ).ready(function() {
+        $( ".cross" ).hide();
+          $( ".menu" ).hide();
+          $( ".hamburger" ).click(function() {
+          $( ".menu" ).slideToggle( "slow", function() {
+          $( ".hamburger" ).hide();
+          $( ".cross" ).show();
+          });
+        });
+
+        $( ".cross" ).click(function() {
+          $( ".menu" ).slideToggle( "slow", function() {
+          $( ".cross" ).hide();
+          $( ".hamburger" ).show();
+          });
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- IF WE ARE GOING TO HAVE AN IMG AS LOGO -->
+        <!-- <a href="index.html"><img class="logo" src="img/logo.png"></a> -->
+        <a href="index.html" class="logo">JUVIVA PHYSIO</a>
+
+        <!-- BURGER MENU BUTTON -->
+        <!-- BY GLENN SMITH FROM CODEPEN (https://codepen.io/g13nn/pen/eHGEF) -->
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+
+        <!-- NAVBAR -->
+        <nav>
+          <ul class="navbar">
+            <a href="index.html"><li class="nav-items">HJEM</li>
+            <a href="programmer.html"><li class="nav-items">PROGRAMMER</li>
+            <a href="bibliotek.html"><li class="nav-items">ØVELSESBIBLIOTEK</li>
+            <a href="reviews.html"><li  class="nav-items active">REVIEWS</li>
+            <a href="qa.html"><li class="nav-items">Q&A</li>
+            <a href="login.html"><li class="nav-items">LOGIN</li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- BURGER MENU -->
+      <div class="menu">
+        <ul>
+          <a href="index.html"><li>HJEM</li></a>
+          <a href="programmer.html"><li>PROGRAMMER</li></a>
+          <a href="bibliotek.html"><li>ØVELSESBIBLIOTEK</li></a>
+          <a class="active" href="reviews.html"><li>REVIEWS</li></a>
+          <a href="qa.html"><li>Q&A</li></a>
+          <a href="login.html"><li>LOGIN</li></a>
+        </ul>
+      </div>
+
+      <div class="contain">
+
+      <!-- SEARCH BAR (from https://codepen.io/michaelhhdk/pen/pbmYvd -->
+      <div class="search-box">
+        <div class="wrapper">
+          <form>
+            <input type="search" placeholder="Søg..." />
+            <button>Søg</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div>
+        <div>
+          <h3 class="køb-program">DET SIGER ANDRE FOLK</h3>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"ET FANTASTISK FORLØB"</strong><br/><i>LENE PERSSON</i><br/>- &#9733; &#9733; &#9733; &#9733; &#9733; -</p>
+        </div>
+
+        <!-- PROGRAMMER -->
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">Et fantastisk forløb indtil videre. Mit problem bliver taget seriøst. Vi har en fælles tro på at det her lykkes. Klaus får 5 stjerner af 5 mulige.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"DET GAV MIG FORSTÅELSE"</strong><br/><i>JYTTE ADRIAN</i><br/>- &#9733; &#9733; &#9733; &#9733; &#9733; -</p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">Jeg har været utrolig glad for den vejledning jeg har fået, det har givet mig en bedre forståelse af vigtigheden af den målrettede træning. Det har været meget givtigt at få adgang til øvelsesbiblioteket. Det sidste jeg havde glæde af var den mail med "Sådan planlægger du din fremgang", det gav mig forståelse for at det tager tid at nå det fulde mål. Jeg kan kun rose for forløbet. Klaus får 5 ud af 5 mulige stjerner.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"MEGET PROFESSIONELT"</strong><br/><i>THOMAS JENSEN</i><br/>- &#9733; &#9733; &#9733; &#9733; &#9733; -</p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">Klaus arbejder meget professionelt for, at opnå forståelse for hvordan ens rygproblemer kan afhjælpes. Klaus får 5 ud af 5 mulige stjerner.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"GOD INFORMATIV UNDERVISNING"</strong><br/><i>METTE FALK ANDERSEN</i><br/>- &#9733; &#9733; &#9733; &#9733; &#9733; -</p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">En god informativ undervisning med medinddragelse af deltagerne med udgangspunkt i diverse symptomer. Øvelserne gav deltagerne et indblik i hvor de skal sætte ind med fremadrettet træning. Workshoppen får 5 ud af 5 stjerner.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"GOD UNDERVISER"</strong><br/><i>MERETE</i><br/>- &#9733; &#9733; &#9733; &#9733; &#9733; -</p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">Meget inspirerende. God underviser. Skræmmende hvor dårlig form jeg er i. (interessant med forskellige test). Workshoppen får 5 ud af 5 stjerner.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"GODT UD PÅ MIG SELV"</strong><br/><i>CHARLOTTE</i><br/> - &#9733; &#9733; &#9733; &#9733; &#9733; -</p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">De 3 timer var givet godt ud på mig selv. Befriende at høre en behandler, der kigger på hele kroppen. Endelig en, der tager problemet seriøst. Workshoppen får 5 ud af 5 stjerner.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"VALGTE MED OVERLÆG JMG PHYSIO"</strong><br/><i>ANNI HANSEN</i><br/> - MEGET TILFREDS -</p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">Jeg er meget tilfreds. Jeg valgte med overlæg JMG PHYSIO, fordi jeg fandt overensstemmelse på det område, der var vigtig for mig, nemlig at det var det hele menneske, der var i fokus- og dermed ikke kun de synlige skadesteder, der skulle behandles.
+            <br/>
+            Desuden kan jeg godt lide, at det er mig, der skal arbejde med øvelserne og dermed selv kan følge med i udviklingen, i forhold til den indsats jeg er i stand til at lægge for hver dag.
+            Da jeg ikke er så god til at huske alle informationer omkring øvelserne i øjeblikket, er det af stor værdi at jeg kan spørge både pr. mail, tlf. og ved næste besøg, så jeg kan udføre øvelserne korrekt og fortælle, hvad der har fungeret og ikke fungeret for mig siden sidst.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"EN ORDENTLIG OPVÅGNING"</strong><br/><i>TANJA STRANGE</i></p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">Jeg vidste også at balancen ikke var god, men det chokkerede mig alligevel hvor ringe den var. Jeg vidste ikke at min bevægelige tilstand var så dårlig. Alt i alt fik jeg en ordentlig opvågnen, jeg må i gang med at gøre en indsats, så jeg kan få en bedre livskvalitet.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"SAGLIG OG ANALYTISK"</strong><br/><i>MORTEN GREVE</i><br/>- KAN ANBEFALES -</p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">Klaus gik til værks på mit noget anløbne problem med en saglig og analytisk evne og en præcision og metode der samtidig åbnede for min egen forståelse af problemet så jeg gik derfra og kunne hjælpe mig selv til bedring og helbredelse. Jeg vil anbefale Klaus på det varmeste.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"FOREBYGGELSE FREMFOR BEHANDLING"</strong><br/><i>SUSSIE ANDERSEN</i><br/>- MEGET OVERRASKENDE -</p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">Spændende og inspirerende, men også meget overraskende. For mig som er ansat i sundhedsvæsenet var budskabet om ”ud med RICE og ind med MCE” nyt. Men argumenterne for brug af MCE gav god mening. Personligt vil jeg prøve dette på både mig selv og min familie, hvis der bliver behov. Derudover synes jeg , det er godt, at vægten lægges på forebyggelse fremfor behandling. Glæder mig til fremtidigt samarbejde.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"SKABT STORE RESULTATER"</strong><br/><i>OLIVER H. ANDERSEN</i></p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">Klaus har en professionel tilgang til tingene, og med en filosofi om at skader skal bevæges væk, har han også skabt resultater med hensyn til mine skader. Jeg er blevet vist specifikke øvelser, som jeg har arbejdet med hjemme fra gang til gang. Disse øvelser som jeg har arbejdet med hjemme, har på få uger skabt store resultater.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"DET ER ALDRIG FOR SENT"</strong><br/><i>RALPH FORDYCE SIGURSKJOLD</i><br/>- KAN ANBEFALES -</p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst">Klaus Jørgensen delte sine erfaringer som fysioterapeut med golfspillere, især dem over 40 – ikke i handicap, men alder. Vi fik bl.a. at vide at fra den spæde alder af 22 mister de fleste af os 2½ kilo muskelmasse pr. 10-år. Trøsten er, at det aldrig er for sent at gøre noget ved det. Klaus påpegede at især ryg og skuldre belastes ved golf, i den sammenhæng henviser han i øvrigt til www.juviva.com, der afkræfter mange myter omkring rygskader. Der er ingen tvivl om, at alle kan forbedre deres golf ved fysisk træning – noget vi, der deltog, kan anbefale.</p>
+        </div>
+
+        <div>
+          <p class="bestil-tid review-tekst"><strong>"EN SJOV OG NOGET CHOKERENDE OPLEVELSE"</strong><br/><i>SUSANNE THANE</i><br/>- FANTASTISK -</p>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <p class="tid tekst review-tekst">Er vores fysisk klar til golfspillet? Hvordan har vores krop det – kender vi til skavanker og skader! Klaus Jørgensen arbejder intenst og målrettet med en ide om at hjælpe golfspillere over 40 år, da han i sit daglige arbejde har mødt mange golfspillere med skader og fysiske problemer. Efter træningen blev flere af os ”testet” blot med små øvelser for vores fysik og smidighed. Det blev en sjov og noget chokerende oplevelse, fordi vi var slet ikke i stand til, at lave de øvelser som Klaus testede os med. Det blev til mange grin men vist også en ”wake up calling” for de fleste af os! Det var et fantastisk møde og Klaus Jørgensen har en del viden og ideer, som han bruger til sit koncept på www.juviva.com.</p>
+        </div>
+    </main>
+
+    <footer>
+      <div class="footer-text">
+        <a href="login.html"><strong>Login</strong></a>
+        <a href="#"><strong>Betingelser</strong></a>
+        <a href="#"><strong>Privatliv</strong></a>
+        <a href="kontakt.html"><strong>Kontakt os</strong></a><br/>
+        <p class="rightsreserved"><strong>© 2018 Juviva. All rights reserved</strong></p>
+      </div>
+
+      <div class="socialicons">
+        <i class="fab fa-facebook-f fa-small" href="https://www.facebook.com/juvivamovement/?ref=br_rs"></i>
+        <i class="fab fa-twitter fa-small" href="https://twitter.com/JMGPHYSIO"></i>
+        <i class="fab fa-instagram fa-small" href="https://www.instagram.com/jmg_physio/"></i>
+        <i class="fab fa-youtube fa-small" href="https://www.youtube.com/c/KlausJ%C3%B8rgensen"></i>
+        <i class="fab fa-linkedin fa-small" href="https://www.linkedin.com/in/juvivagroup/"></i>
+      </div>
+    </footer>
+  </body>
+</html>

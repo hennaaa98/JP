@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <!-- GLOBAL SITE TAG (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109483701-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109483701-1');
+    </script>
+
+    <!-- CHARACTER SET -->
+    <meta charset="utf-8">
+
+    <!-- MAKES THIS PAGE NOT SEARCHABLE -->
+    <meta name="robots" content="nofollow" />
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+
+    <!-- RESPONSIVE META TAG -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- TITLE -->
+    <title>JUVIVA PHYSIO</title>
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- ROBOTO FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- SCRIPT FOR BURGER MENU -->
+    <script>
+      $( document ).ready(function() {
+        $( ".cross" ).hide();
+          $( ".menu" ).hide();
+          $( ".hamburger" ).click(function() {
+          $( ".menu" ).slideToggle( "slow", function() {
+          $( ".hamburger" ).hide();
+          $( ".cross" ).show();
+          });
+        });
+
+        $( ".cross" ).click(function() {
+          $( ".menu" ).slideToggle( "slow", function() {
+          $( ".cross" ).hide();
+          $( ".hamburger" ).show();
+          });
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- IF WE ARE GOING TO HAVE AN IMG AS LOGO -->
+        <!-- <a href="index.html"><img class="logo" src="img/logo.png"></a> -->
+        <a href="index.html" class="logo">JUVIVA PHYSIO</a>
+
+        <!-- BURGER MENU BUTTON -->
+        <!-- BY GLENN SMITH FROM CODEPEN (https://codepen.io/g13nn/pen/eHGEF) -->
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+
+        <!-- NAVBAR -->
+        <nav>
+          <ul class="navbar">
+            <a href="index.html"><li class="nav-items">HJEM</li>
+            <a href="programmer.html"><li class="nav-items">PROGRAMMER</li>
+            <a href="bibliotek.html"><li class="nav-items">ØVELSESBIBLIOTEK</li>
+            <a href="reviews.html"><li  class="nav-items">REVIEWS</li>
+            <a href="qa.html"><li class="nav-items ">Q&A</li>
+            <a href="login.html"><li class="nav-items active">LOGIN</li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- BURGER MENU -->
+      <div class="menu">
+        <ul>
+          <a href="index.html"><li>HJEM</li></a>
+          <a href="programmer.html"><li>PROGRAMMER</li></a>
+          <a href="bibliotek.html"><li>ØVELSESBIBLIOTEK</li></a>
+          <a href="reviews.html"><li>REVIEWS</li></a>
+          <a href="qa.html"><li>Q&A</li></a>
+          <a class="active" href="login.html"><li>LOGIN</li></a>
+        </ul>
+      </div>
+
+      <div class="contain">
+    <main>
+      <div>
+        <div>
+          <h3 class="køb-program">LOG IND PÅ DIN PROFIL</h3>
+        </div>
+
+        <form action="/action_page.php">
+        <input type="text" name="email" value="Emailadresse">
+        <br>
+        <input type="text" name="name" value="Password">
+        <br><br>
+        <div style="text-align: center;">
+          <button class="bib-button startidag">LOG IND</button>
+        </div>
+      </form>
+
+    </main>
+
+    <footer>
+      <div class="footer-text">
+        <a href="login.html"><strong>Login</strong></a>
+        <a href="#"><strong>Betingelser</strong></a>
+        <a href="#"><strong>Privatliv</strong></a>
+        <a href="kontakt.html"><strong>Kontakt os</strong></a><br/>
+        <p class="rightsreserved"><strong>© 2018 Juviva. All rights reserved</strong></p>
+      </div>
+
+      <div class="socialicons">
+        <i class="fab fa-facebook-f fa-small" href="https://www.facebook.com/juvivamovement/?ref=br_rs"></i>
+        <i class="fab fa-twitter fa-small" href="https://twitter.com/JMGPHYSIO"></i>
+        <i class="fab fa-instagram fa-small" href="https://www.instagram.com/jmg_physio/"></i>
+        <i class="fab fa-youtube fa-small" href="https://www.youtube.com/c/KlausJ%C3%B8rgensen"></i>
+        <i class="fab fa-linkedin fa-small" href="https://www.linkedin.com/in/juvivagroup/"></i>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <!-- GLOBAL SITE TAG (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109483701-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109483701-1');
+    </script>
+
+    <!-- CHARACTER SET -->
+    <meta charset="utf-8">
+
+    <!-- MAKES THIS PAGE NOT SEARCHABLE -->
+    <meta name="robots" content="nofollow" />
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+
+    <!-- RESPONSIVE META TAG -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- TITLE -->
+    <title>JUVIVA PHYSIO</title>
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- ROBOTO FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- SCRIPT FOR BURGER MENU -->
+    <script>
+      $( document ).ready(function() {
+        $( ".cross" ).hide();
+          $( ".menu" ).hide();
+          $( ".hamburger" ).click(function() {
+          $( ".menu" ).slideToggle( "slow", function() {
+          $( ".hamburger" ).hide();
+          $( ".cross" ).show();
+          });
+        });
+
+        $( ".cross" ).click(function() {
+          $( ".menu" ).slideToggle( "slow", function() {
+          $( ".cross" ).hide();
+          $( ".hamburger" ).show();
+          });
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <a href="index.html" class="logo">JUVIVA PHYSIO</a>
+
+        <!-- BURGER MENU BUTTON -->
+        <!-- BY GLENN SMITH FROM CODEPEN (https://codepen.io/g13nn/pen/eHGEF) -->
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+
+        <!-- NAVBAR -->
+        <nav>
+          <ul class="navbar">
+            <a href="index.html"><li class="nav-items">HJEM</li></a>
+            <a class="active" href="programmer.html"><li class="nav-items active">PROGRAMMER</li></a>
+            <a href="bibliotek.html"><li class="nav-items">ØVELSESBIBLIOTEK</li></a>
+            <a href="reviews.html"><li class="nav-items">REVIEWS</li></a>
+            <a href="qa.html"><li class="nav-items">Q&A</li></a>
+            <a href="login.html"><li class="nav-items">LOGIN</li></a>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- BURGER MENU -->
+      <div class="menu">
+        <ul>
+          <a href="index.html"><li>HJEM</li></a>
+          <a class="active" href="programmer.html"><li>PROGRAMMER</li></a>
+          <a href="bibliotek.html"><li>ØVELSESBIBLIOTEK</li></a>
+          <a href="reviews.html"><li>REVIEWS</li></a>
+          <a href="qa.html"><li>Q&A</li></a>
+          <a href="login.html"><li>LOGIN</li></a>
+        </ul>
+      </div>
+
+      <div class="contain">
+
+      <!-- SEARCH BAR (from https://codepen.io/michaelhhdk/pen/pbmYvd -->
+      <div class="search-box">
+        <div class="wrapper">
+          <form>
+            <input type="search" placeholder="Søg..." />
+            <button>Søg</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="kategori-program">
+        <a href="#programmer" class="kategori-bar">PROGRAMMER</a>
+        <a class="kategori-bar">|</a>
+        <a href="#onlinecoaching" class="kategori-bar">ONLINE COACHING</a>
+        <a class="kategori-bar">|</a>
+        <a href="#bibliotek" class="kategori-bar">ØVELSESBIBLIOTEK</a>
+      </div>
+
+      <div>
+        <div>
+          <h3 class="køb-program" id="programmer">PROGRAMMER</h3>
+        </div>
+
+        <div>
+          <p class="bestil-tid">BESTIL TID - VÆLG EN YDELSE</p>
+        </div>
+
+        <!-- PROGRAMMER -->
+        <div>
+          <div class="undersøgelser">
+            <a href="#" class="undersøgelse"><strong>FØRSTE FYSIOTERAPEUTISKE UNDERSØGELSE</strong></a>
+
+            <p class="tid">30 minutter · DKK 500,00</p>
+
+            <p class="tid tekst">Når du har smerter og nedsat funktion er det vigtigt at få en grundig undersøgelse af din problemstilling.
+            <br/>
+            En grundig undersøgelse kan hurtigt afsløre, hvorfor du har ondt og hvad du/vi kan gøre for, at afhjælpe dine smerter og nedsatte funktion. <br/>
+            Jo hurtigere du får kontrol over smerterne og jo hurtigere du genvinder din fulde funktion igen, jo hurtigere kan du komme i gang med din sport, din hverdag og dit arbejde.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <a href="#" class="undersøgelse"><strong>SPORSTBEVÆGELSESANALYSE FOR 1 PERSON</strong></a>
+
+            <p class="tid">1 time · DKK 1.500,00 | SKAL BETALES ONLINE |</p>
+
+            <p class="tid tekst">Denne konsultation er for sportsudøveren der ønsker, at præstere bedre i sin sport og forebygge skader. <br/>
+            Det er vigtigt med en sportsbevægelsesanalyse fordi, den gennemsnitlige sportsudøver risikerer at mister 5-10% af træningen grundet skader! 50% af skaderne er gamle skader der bryder op igen! <br/>
+            Du vil lære hvordan du forebygger skader, genoptræner efter skader og forbedre dine præstationer på banen.<br/>
+            Dette er IKKE en behandling. Der vil foretaget en grundig undersøgelse og bevægelsesanalyse som video-optages.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <a href="#" class="undersøgelse"><strong>OPFØLGENDE KONSULATION</strong></a>
+
+            <p class="tid">30 minutter · DKK 500,00</p>
+
+            <p class="tid tekst">Din første konsultation hos os, bør have givet dig et godt indblik i, hvorfor du har den skade du har og hvad du kan gøre ved det. <br/>
+            Og hvorfor er det vigtigt for mig? <br/>
+            De opfølgende konsultationer har til formål, at sikre os at du er på rette vej, korrigere din genoptræning og planlægge de næste skridt frem til en normal hverdag uden smerter og nedsat funktionsniveau.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <a href="#" class="undersøgelse"><strong>SPORTSSPECIFIK-BEVÆGELSESANALYSE /RETEST</strong></a>
+
+            <p class="tid">50 minutter · DKK 1.000,00 | SKAL BETALES ONLINE | </p>
+
+            <p class="tid tekst">Denne konsultation er for dig der har fået foretaget en sportsbevægelsesanalyse og efterfølgende har trænet seriøst på, at genoprette balancen i din præstationspyramide. <br/>
+            Retesten vil vise om vi er på rette spor og vil fortælle os hvornår vi kan gå til næste fase på din vej mod bedre sportslige præstationer og forebyggelse af skader.</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <h3 class="køb-program" id="onlinecoaching">ONLINE COACHING</h3>
+        </div>
+
+        <div>
+          <p class="bestil-tid">VÆLG MELLEM <strong>STANDARD</strong> OG <strong>PREMIUM</strong></p>
+        </div>
+
+        <!-- PROGRAMMER -->
+        <div>
+          <div class="undersøgelser">
+            <a href="#" class="undersøgelse"><strong>MEST POPULÆR</strong> <br/>STANDARD</a>
+
+            <p class="tid">DKK 600,00 / måned</p>
+
+            <p class="tid tekst">Inkluderer: <br/>
+            · Individualiseret programplanlægning ud fra dine udfordringer, ønsker og behov.<br/>
+            · Du har mulighed for, at uploaded dine egne træningsvideoer og få feedback på din træningsteknik. <br/>
+            · Livechat funktion, så du får hurtig feedback på din træning fra din JUVIVA PHYSIO Coach.</p>
+          </div>
+
+          <div style="text-align: center;">
+            <button class="bib-button startidag">VÆLG STANDARD</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="undersøgelser">
+            <a href="#" class="undersøgelse"><strong>PREMIUM</strong></a>
+
+            <p class="tid">DKK 1.200,00 / måned</p>
+
+            <p class="tid tekst">Inkluderer: <br/>
+            · Individualiseret programplanlægning ud fra dine udfordringer, ønsker og behov. <br/>
+            · Du har mulighed for, at uploaded dine egne træningsvideoer og få feedback på din træningsteknik. <br/>
+            · Livechat funktion, så du får hurtig feedback på din træning fra din JUVIVA PHYSIO Coach. <br/>
+            · Regelmæssige telefon/skype samtaler med din JMG PHYSIO Coach (Maks. 2 om måneden). <br/>
+            · S.M.A.R.T målsætning ud fra dine ønsker, behov, udfordringer og mål.
+            </p>
+          </div>
+
+          <div style="text-align: center;">
+            <button class="bib-button startidag">VÆLG PREMIUM</button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <h3 class="køb-program" id="bibliotek">ØVELSESBIBLIOTEK</h3>
+        </div>
+
+        <div>
+          <p class="bestil-tid">FÅ ADGANG TIL ALLE VIDEOER</p>
+        </div>
+
+        <!-- PROGRAMMER -->
+        <div>
+          <div class="undersøgelser">
+
+            <p class="tid måned">DKK 99,00 / måned</p>
+
+              <form action="/action_page.php">
+              <input type="text" name="email" value="Emailadresse">
+              <br>
+              <input type="text" name="name" value="Navn">
+              <br><br>
+              <input type="text" name="card" value="Card">
+              <br>
+              <input type="text" name="paypal" value="Paypal">
+              <br><br>
+              <div style="text-align: center;">
+                <button class="bib-button startidag">FULDFØR MIT KØB</button>
+              </div>
+            </form>
+
+            <form class="tid tekst"></form>
+          </div>
+        </div>
+    </main>
+
+    <footer>
+      <div class="footer-text">
+        <a href="login.html"><strong>Login</strong></a>
+        <a href="#"><strong>Betingelser</strong></a>
+        <a href="#"><strong>Privatliv</strong></a>
+        <a href="kontakt.html"><strong>Kontakt os</strong></a><br/>
+        <p class="rightsreserved"><strong>© 2018 Juviva. All rights reserved</strong></p>
+      </div>
+
+      <div class="socialicons">
+        <i class="fab fa-facebook-f fa-small" href="https://www.facebook.com/juvivamovement/?ref=br_rs"></i>
+        <i class="fab fa-twitter fa-small" href="https://twitter.com/JMGPHYSIO"></i>
+        <i class="fab fa-instagram fa-small" href="https://www.instagram.com/jmg_physio/"></i>
+        <i class="fab fa-youtube fa-small" href="https://www.youtube.com/c/KlausJ%C3%B8rgensen"></i>
+        <i class="fab fa-linkedin fa-small" href="https://www.linkedin.com/in/juvivagroup/"></i>
+      </div>
+    </footer>
+  </body>
+</html>

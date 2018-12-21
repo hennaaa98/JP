@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <!-- GLOBAL SITE TAG (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109483701-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109483701-1');
+    </script>
+
+    <!-- CHARACTER SET -->
+    <meta charset="utf-8">
+
+    <!-- MAKES THIS PAGE NOT SEARCHABLE -->
+    <meta name="robots" content="nofollow" />
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+
+    <!-- RESPONSIVE META TAG -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- TITLE -->
+    <title>JUVIVA PHYSIO</title>
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- ROBOTO FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- SCRIPT FOR BURGER MENU -->
+    <script>
+      $( document ).ready(function() {
+        $( ".cross" ).hide();
+          $( ".menu" ).hide();
+          $( ".hamburger" ).click(function() {
+          $( ".menu" ).slideToggle( "slow", function() {
+          $( ".hamburger" ).hide();
+          $( ".cross" ).show();
+          });
+        });
+
+        $( ".cross" ).click(function() {
+          $( ".menu" ).slideToggle( "slow", function() {
+          $( ".cross" ).hide();
+          $( ".hamburger" ).show();
+          });
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!-- IF WE ARE GOING TO HAVE AN IMG AS LOGO -->
+        <!-- <a href="index.html"><img class="logo" src="img/logo.png"></a> -->
+        <a href="index.html" class="logo">JUVIVA PHYSIO</a>
+
+        <!-- BURGER MENU BUTTON -->
+        <!-- BY GLENN SMITH FROM CODEPEN (https://codepen.io/g13nn/pen/eHGEF) -->
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+
+        <!-- NAVBAR -->
+        <nav>
+          <ul class="navbar">
+            <a href="index.html"><li class="nav-items">HJEM</li>
+
+            <a href="programmer.html"><li class="nav-items">PROGRAMMER</li>
+
+            <a href="bibliotek.html"><li class="nav-items active">ØVELSESBIBLIOTEK</li>
+
+            <a href="reviews.html"><li class="nav-items">REVIEWS</li>
+
+            <a href="qa.html"><li class="nav-items">Q&A</li>
+
+            <a href="login.html"><li class="nav-items">LOGIN</li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- BURGER MENU -->
+      <div class="menu">
+        <ul>
+          <a href="index.html"><li>HJEM</li></a>
+          <a href="programmer.html"><li>PROGRAMMER</li></a>
+          <a class="active" href="bibliotek.html"><li>ØVELSESBIBLIOTEK</li></a>
+          <a href="reviews.html"><li>REVIEWS</li></a>
+          <a href="qa.html"><li>Q&A</li></a>
+          <a href="login.html"><li>LOGIN</li></a>
+        </ul>
+      </div>
+
+      <div class="contain">
+
+      <!-- SEARCH BAR (from https://codepen.io/michaelhhdk/pen/pbmYvd -->
+      <div class="search-box">
+        <div class="wrapper">
+          <form>
+            <input type="search" placeholder="Søg..." />
+            <button>Søg</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <!-- "NETFLIX" SLIDER -->
+      <div class="row">
+        <h4>VELKOMMEN OMBORD</h4>
+          <div class="row__inner">
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/velkommen.png" alt=""/>
+              </div>
+
+            <div class="tile__details">
+              <div class="tile__title">
+                VELKOMMEN OMBORD
+              </div>
+            </div>
+          </div>
+
+          <div class="tile">
+            <div class="tile__media">
+              <img class="tile__img" src="img/præstationspyramiden.png" alt=""/>
+            </div>
+
+            <div class="tile__details">
+              <div class="tile__title">
+                PRÆSTATIONSPYRAMIDEN
+              </div>
+            </div>
+          </div>
+
+          <div class="tile">
+            <div class="tile__media">
+              <img class="tile__img" src="img/smartmål.png" alt=""  />
+            </div>
+
+            <div class="tile__details">
+              <div class="tile__title">
+                S.M.A.R.T MÅL
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h4>TEST DIG SELV</h4>
+          <div class="row__inner">
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/armbøjninger.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  STYRKETEST
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/chinups.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  CHINUPS
+                </div>
+              </div>
+            </div>
+
+          <div class="tile">
+            <div class="tile__media">
+              <img class="tile__img" src="img/benløft.png" alt=""  />
+            </div>
+
+            <div class="tile__details">
+              <div class="tile__title">
+                BENLØFT
+              </div>
+            </div>
+          </div>
+
+          <div class="tile">
+            <div class="tile__media">
+              <img class="tile__img" src="img/parallelsquat.png" alt=""  />
+            </div>
+
+            <div class="tile__details">
+              <div class="tile__title">
+                SQUATS UNDER PARALLEL
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h4>MOBILITET & STABILITET</h4>
+          <div class="row__inner">
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/vægstræk.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  VÆGSTRÆK
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/camel.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  CAMELPOSE
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/cobra.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  COBRA POSE
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/hamstringstretch.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  WALL HAMSTRING STRETCH W/ TOWEL
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/twistedlunge.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  TWISTED LUNGE
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h4>STYRKE, KONDITION & POWER</h4>
+          <div class="row__inner">
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/squat.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  SQUAT - VÆGTSTANGSØVELSER
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/skulderpres.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  SKULDERPRES
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/deadlift.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  Deadlift
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/bænkpres.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  Bænkpres
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/fuldtgu.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  Fuld TGU
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h4>TRÆNINGSPROGRAMMER</h4>
+          <div class="row__inner">
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/opvarmning.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  OPVARMNING - LEKTION 1
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/håndled.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  OPVARMNING - LEKTION 2
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/wendlercore.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  OPVARMNING - LEKTION 3
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/core.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  RYGØVELSER - LEKTION 1
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/ryg.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  RYGØVELSER - LEKTION 2
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/styrketræning.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  STYRKETRÆNING - LEKTION 1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h4>NAKKE & ØVRE RYG</h4>
+          <div class="row__inner">
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/bløddele.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  KROPPENS BLØDDELE & RYGSØJLENS OPBYGNING
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/rygsmerter.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  TYPER AF SKADER
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/behandlingsprincipper.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  BEHANDLINGSPRINCIPPER
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/testdinnakke.png" alt=""  />
+              </div>
+
+            <div class="tile__details">
+                <div class="tile__title">
+                  TEST DIN NAKKE
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/testdinryg.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  TEST DIN ØVRE RYG
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h4>LÆND & BÆKKENET</h4>
+          <div class="row__inner">
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/rygmuskel.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  FORSTÅ RYGGEN
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/ryghvirvl.png" alt=""/>
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  3 PRIMÆRE ÅRSAGER TIL RYGSMERTER
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/akut.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  AKUTTE RYGSMERTER
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/testdinrygsmerte.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  TEST DIN RYG
+                </div>
+              </div>
+            </div>
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/testdinlænd.png" alt=""  />
+              </div>
+
+              <div class="tile__details">
+                <div class="tile__title">
+                  TILBAGEVENDENDE LÆNDEPROBLEMER
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h4>HOFTE, KNÆ & ANKEL</h4>
+          <div class="row__inner">
+
+            <div class="tile">
+              <div class="tile__media">
+                <img class="tile__img" src="img/forståhoften.png" alt=""/>
+              </div>
+
+            <div class="tile__details">
+              <div class="tile__title">
+                FORSTÅ HOFTEN
+              </div>
+            </div>
+          </div>
+
+          <div class="tile">
+            <div class="tile__media">
+              <img class="tile__img" src="img/testdinhofte.png" alt=""/>
+            </div>
+
+            <div class="tile__details">
+              <div class="tile__title">
+                TEST DIN HOFTE
+              </div>
+            </div>
+          </div>
+
+          <div class="tile">
+            <div class="tile__media">
+              <img class="tile__img" src="img/testditknæ.png" alt=""  />
+            </div>
+
+            <div class="tile__details">
+              <div class="tile__title">
+                TEST DIT KNÆ
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-text">
+        <a href="login.html"><strong>Login</strong></a>
+        <a href="#"><strong>Betingelser</strong></a>
+        <a href="#"><strong>Privatliv</strong></a>
+        <a href="kontakt.html"><strong>Kontakt os</strong></a><br/>
+        <p class="rightsreserved"><strong>© 2018 Juviva. All rights reserved</strong></p>
+      </div>
+
+      <div class="socialicons">
+        <i class="fab fa-facebook-f fa-small" href="https://www.facebook.com/juvivamovement/?ref=br_rs"></i>
+        <i class="fab fa-twitter fa-small" href="https://twitter.com/JMGPHYSIO"></i>
+        <i class="fab fa-instagram fa-small" href="https://www.instagram.com/jmg_physio/"></i>
+        <i class="fab fa-youtube fa-small" href="https://www.youtube.com/c/KlausJ%C3%B8rgensen"></i>
+        <i class="fab fa-linkedin fa-small" href="https://www.linkedin.com/in/juvivagroup/"></i>
+      </div>
+    </footer>
+  </body>
+</html>
